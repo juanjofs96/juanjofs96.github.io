@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+
+*{
+  font-family: 'Baloo', cursive;
+  font-size: 36px;
+}
+
+/*Son cuatro cajas con texto alineadas verticalmente.
+Todas las cajas están alineadas vertical y horizontalmente. 
+Las cajas nunca deben sobreponerse. 
+*/
+
+form{
+  
+}
+
+input{
+  width: 120px;
+  height: 120px;
+  border-radius: 10px 10px 10px 10px;
+  border: 2px solid #606060; 
+  text-align: center;
+}
+
+input[id^="impar"]{
+  background-color: #f7fade;
+}
+input[id^="par"]{
+  background-color: #dfedd6;
+}
+/*
+aside#recientes
+{
+    border: 1px solid black;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+section#principal
+{
+    border: 1px solid blue;
+    width: 1000px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer{
+  position: fixed;
+  width: 1500px;
+  bottom: 0px;
+  left: 2px;
+  z-index: 999;
+  border: 1px solid;
+  background-color: white;
+}
+
+
+section{
+  display: inline-flex;
+}
+
+li{
+  display: inline-block;
+  
+}
+
+nav{
+  width: 100%;
+  background-color: midnightblue;
+  font-family: sans-serif;
+  color: white;
+  position: sticky;
+  top:0px;
+  border: 1px solid;
+}
+
+h1{
+  color: midnightblue;
+  font-style: italic;
+  text-align: center;
+  */
+}

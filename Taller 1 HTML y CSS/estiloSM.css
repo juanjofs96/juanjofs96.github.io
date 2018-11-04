@@ -1,0 +1,89 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+h1, h2 {
+	font-family: 'Oswald', sans-serif;
+}
+nav{
+	font-family: 'Open Sans';
+}
+
+span {
+	color: navy;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+div#img-logo {
+	background-image: url('../img/logo.png');
+	width: 10em;
+	height: 13em;
+}
+
+div#img-sb {
+	background-image: url('../img/sb.jpg');
+	width: 50em;
+	height: 40em;
+}
+
+div[id^="img-"]{
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+	margin: 0px;
+}
+
+img#redes {
+	width: 8em;
+	height: 5em;
+}
+
+form>div{
+    padding: 0.2%;
+    margin: 0;
+    border: 1px solid black;
+}
+
+#inscripciones{
+	font-size: 2em;
+	text-align: center;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#redes{
+	text-align: center;
+	
+}
+
+footer {
+	text-align: center;
+	background-color: #08088A;
+	color: white;
+	font-weight: bold;
+	font-size: 1.1em;
+    
+}
+
+#face {
+	background-image: url('../img/facebook.png');
+	background-size: 28%;
+	background-repeat: no-repeat;
+	color: transparent;
+}
+
+#twi {
+	background-image: url('../img/twitter.png');
+	background-size: 41%;
+	background-repeat: no-repeat;
+	color: transparent;
+}
+
+#insta {
+	background-image: url('../img/instagram.png');
+	background-size: 28%;
+	background-repeat: no-repeat;
+	color: transparent;
+}
+
