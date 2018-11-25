@@ -1,0 +1,24 @@
+﻿.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#info{
+  background-color: darkblue; 
+  color: white;
+  text-align: center;
+}
+
+span{
+  text-align: right;
+}
+
+div#caja
+{
+    border: 1px solid black;
+}
